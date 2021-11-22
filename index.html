@@ -4,21 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='./fonts/geometrika/stylesheet.css'>
     <title>Айфон за сотку от амик</title>
     <link rel="stylesheet" href='./css/reset.css'>
     <link rel="stylesheet" href='./css/style.css'>
     <link rel="stylesheet" href='./css/media.css'>
 </head>
 <body>
-    <header class="header">
+    <div class="allContentWrap">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <svg width="200" height="65" viewBox="0 0 200 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M59.6216 62.6784C59.6216 57.5759 59.585 51.3451 59.6435 46.3982C59.6606 44.9241 59.7972 43.4221 60.1411 41.9898C60.8996 38.8466 63.3704 37.1543 66.6338 37.34C69.6021 37.5094 71.5362 39.4594 71.9289 42.6955C71.9923 43.2294 71.9948 43.7726 71.9972 44.3112C72.0021 49.5298 71.9996 54.7507 71.9996 59.9692C71.9996 60.4405 71.9996 62.1978 71.9996 62.6435C75.7387 62.6435 79.2557 62.6435 82.7509 62.6435C82.7948 62.4601 82.8338 62.3743 82.8338 62.2884C82.8411 57.3391 82.7679 51.1037 82.8923 46.1591C82.9362 44.3901 83.2313 42.5609 83.8191 40.8894C84.6704 38.4775 86.9606 37.2587 89.724 37.3214C92.0679 37.3748 93.9899 38.6168 94.7655 40.8012C95.1191 41.8018 95.2533 42.9137 95.263 43.9769C95.3118 49.286 95.285 54.5951 95.285 59.9043C95.285 60.3848 95.285 62.1468 95.285 62.6551C98.9631 62.6551 102.478 62.6551 106.036 62.6551C106.036 55.3334 106.183 46.8114 105.973 39.5801C105.868 36.0098 104.187 32.8968 101.158 30.6078C95.6045 26.4107 86.6435 27.2905 81.7557 32.4928C81.4899 32.776 81.2143 33.0523 80.8752 33.4052C78.4216 29.9323 74.9923 28.2702 70.8118 27.9962C66.6435 27.7223 62.9021 28.7716 59.5899 31.8753C59.5899 30.6775 59.5899 28.6926 59.5899 27.8546C55.9021 27.8546 52.3899 27.8546 48.8801 27.8546C48.8801 38.7189 48.8801 51.9325 48.8801 62.676C52.4874 62.6784 55.9728 62.6784 59.6216 62.6784Z" fill="black"/>
+                        <path d="M165.853 40.4554C163.448 31.6294 154.707 26.6452 144.78 28.2563C135.327 29.7931 128.878 37.8833 129.875 46.9578C130.883 56.1228 138.961 62.7411 148.753 62.4231C157.544 62.1376 165.385 56.2713 165.697 49.6878C162.453 49.0145 159.2 48.3413 155.975 47.6728C153.768 52.2878 150.98 53.9824 146.931 53.2511C143.022 52.5454 140.548 49.7342 140.319 45.732C140.09 41.7206 142.253 38.4451 145.839 37.4097C147.653 36.8851 149.478 36.892 151.266 37.5072C153.858 38.3963 154.997 40.4763 155.748 42.7792C159.183 41.9876 162.47 41.2331 165.853 40.4554Z" fill="black"/>
+                        <path d="M112.196 29.0016C112.196 39.8519 112.196 51.928 112.196 62.6786C115.818 62.6786 120.866 62.6786 124.391 62.6786C124.391 51.8537 124.391 39.8102 124.391 29.0016C120.83 29.0016 115.82 29.0016 112.196 29.0016Z" fill="black"/>
+                        <path d="M118.156 25.0483C121.734 25.104 124.322 22.7872 124.39 19.4699C124.459 16.1247 121.812 13.4643 118.376 13.4226C115.015 13.3784 112.251 15.9552 112.195 19.1867C112.137 22.5365 114.637 24.9926 118.156 25.0483Z" fill="black"/>
+                        <path d="M29.2687 27.8569C29.2687 27.8569 29.2687 30.4987 29.2687 31.3484C29.2687 31.1534 29.0516 31.1023 28.9443 31.0257C22.5882 26.5059 13.6907 26.8889 8.02481 32.1609C2.27847 37.5048 1.22969 44.0976 3.48822 51.185C5.68335 58.0657 11.2736 62.0168 18.8053 62.3812C22.7833 62.5739 26.4541 61.0348 29.715 58.4835C29.7736 59.3982 29.837 62.6784 29.8833 62.6784C33.5443 62.6784 36.5858 62.6784 41.4638 62.6784C41.4638 51.0712 41.4638 39.4641 41.4638 27.8569C36.5858 27.8569 31.7077 27.8569 29.2687 27.8569ZM24.9736 52.8216C21.9394 54.2098 18.9809 53.8616 16.3126 51.9348C13.2712 49.7341 12.3346 44.7337 14.1809 41.0844C15.859 37.7694 19.6638 36.0725 23.4102 36.9709C27.2711 37.8948 29.8492 41.2725 29.7809 46.3239C29.6833 48.701 28.2321 51.3335 24.9736 52.8216Z" fill="black"/>
+                        <path d="M133 4.2806C116.368 3.81399 80.1216 7.85792 87.785 9.68489C91.2509 9.49221 94.7826 9.39006 98.3753 9.39006C142.256 9.39006 176.931 24.2797 177.826 42.6027C178.363 53.5877 162.675 59.8138 166.339 59.8138C185.007 54.2818 197.39 44.4645 197.422 33.2776C197.461 19.2352 178.631 5.55971 133 4.2806Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="firstscreen">
+                <div class="container">
+                    <div class="firstscreen__txt">
+                        <h2>Розыгрыш нового</h2>
+                        <span class="firstscreen__iphoneTxt">
+                            <svg width="578" height="110" viewBox="0 0 578 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.45 107.1H0V2.1H21.45V107.1Z" fill="white"/>
+                                <path d="M66.8461 107.1H45.2461V2.1H91.1461C102.446 2.1 111.346 5.05 117.846 10.95C124.446 16.75 127.746 24.35 127.746 33.75C127.746 43.25 124.446 50.9 117.846 56.7C111.346 62.6 102.446 65.55 91.1461 65.55H66.8461V107.1ZM66.8461 21V47.1H89.6461C94.8461 47.1 98.8961 46 101.796 43.8C104.696 41.5 106.146 38.25 106.146 34.05C106.146 29.85 104.696 26.65 101.796 24.45C98.8961 22.15 94.8461 21 89.6461 21H66.8461Z" fill="white"/>
+                                <path d="M165.723 107.1H144.123V2.1H165.723V41.4H213.123V2.1H234.573V107.1H213.123V61.05H165.723V107.1Z" fill="white"/>
+                                <path d="M285.395 79.2C291.595 85.7 299.345 88.95 308.645 88.95C317.845 88.95 325.545 85.7 331.745 79.2C337.945 72.7 341.045 64.5 341.045 54.6C341.045 44.7 337.945 36.5 331.745 30C325.545 23.5 317.845 20.25 308.645 20.25C299.345 20.25 291.595 23.5 285.395 30C279.295 36.4 276.245 44.6 276.245 54.6C276.245 64.6 279.295 72.8 285.395 79.2ZM254.195 54.6C254.195 39.2 259.345 26.3 269.645 15.9C279.945 5.3 292.945 0 308.645 0C324.245 0 337.195 5.3 347.495 15.9C357.895 26.5 363.095 39.4 363.095 54.6C363.095 69.7 357.895 82.6 347.495 93.3C337.195 103.9 324.245 109.2 308.645 109.2C292.945 109.2 279.945 103.9 269.645 93.3C259.345 82.7 254.195 69.8 254.195 54.6Z" fill="white"/>
+                                <path d="M403.75 107.1H382.6V2.1H401.05L454 69.3V2.1H475V107.1H457.15L403.75 39.6V107.1Z" fill="white"/>
+                                <path d="M577.072 107.1H498.322V2.1H575.422V21.45H519.922V41.7H564.622V60.75H519.922V87.75H577.072V107.1Z" fill="white"/>
+                            </svg>
+                        </span>
+                        <span class="firstscreen__13">
+                            <svg width="247" height="195" viewBox="0 0 247 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_i_183_433)">
+                                <path d="M78.9081 191.1H40.5194V42.4458L0.224854 62.8653V24.4766L44.8755 0.5177H78.9081V191.1Z" fill="black"/>
+                                <path d="M169.475 194.912C146.968 194.912 127.638 189.829 111.484 179.665V142.365C128.182 153.982 146.787 159.79 167.297 159.79C178.913 159.79 188.443 156.977 195.884 151.35C203.326 145.542 207.047 137.737 207.047 127.936C207.047 118.679 203.598 111.237 196.701 105.61C189.804 99.802 180.638 96.8979 169.203 96.8979C159.946 96.8979 150.961 98.6222 142.249 102.071V76.2061L187.716 34.278H117.473V0.5177H237.812V29.9218L194.795 69.3996C208.408 71.7591 220.388 78.0211 230.734 88.1855C241.079 98.1684 246.252 111.418 246.252 127.936C246.252 148.264 238.901 164.509 224.199 176.67C209.679 188.831 191.437 194.912 169.475 194.912Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_i_183_433" x="0.224854" y="0.5177" width="246.028" height="194.394" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset/>
+                                <feGaussianBlur stdDeviation="9"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.332438 0 0 0 0 0.332438 0 0 0 0 0.3375 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_183_433"/>
+                                </filter>
+                                </defs>
+                            </svg>
+                        </span>
+                        <div class="firstscreen__smile">
+                            <div class="firstscreen__smilePic">
+                                <img src="./source/firstscreen/smile.png" alt="">
+                            </div>
+                            <div class="firstscreen__smileTxt">
+                                <p>Покупай заставки с твоим любимым городом для своего смартфона, регистрируй чек<br> 
+                                    и участвуй в розыгрыше!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstscreen__iphone">
+                        <img src="./source/firstscreen/fqajy 1.png" alt="">
+                        <div class="firstscreen__iphoneShadow"></div>
+                    </div>
+                    <div class="firstscreen__hesh">
+                        <img src="./source/firstscreen/hesh.png" alt="">
+                    </div>
+                    <div class="firstscreen__shar firstscreen__shar1 firstscreen__sharAnimate1">
+                        <img src="./source/firstscreen/shar1.png" alt="">
+                    </div>
+                    <div class="firstscreen__shar firstscreen__shar2 firstscreen__sharAnimate1">
+                        <img src="./source/firstscreen/shar2.png" alt="">
+                    </div>
+                    <div class="firstscreen__shar firstscreen__shar3 firstscreen__sharAnimate2">
+                        <img src="./source/firstscreen/shar3.png" alt="">
+                    </div>
+                    <div class="firstscreen__shar firstscreen__shar4 firstscreen__sharAnimate2">
+                        <img src="./source/firstscreen/shar4.png" alt="">
+                    </div>
 
-    </header>
-    <main class="main">
+                    <div class="firstscreen__bg firstscreen__bg2" alt=""></div>
+                </div>
+                <div class="crohi crohi1">
+                    <img src="./source/firstscreen/crohi1.png" alt="">
+                </div>
+                <div class="crohi crohi2">
+                    <img src="./source/firstscreen/crohi2.png" alt="">
+                </div>
 
-    </main>
-    <footer class="footer">
+                <div class="firstscreen__bg firstscreen__bg1" alt=""></div>
+                <div class="firstscreen__bg firstscreen__bg3" alt=""></div>
+            </section>
 
-    </footer>
+            <section class="uslovia">
+                <div class="container">
+                    <h2>Условия участия</h2>
+                    <div class="uslovia__content">
+                        <div class="uslovia__steps">
+                            <ul>
+                                <li class="uslovia__stepsItem">
+                                    <div class="uslovia__stepsNumWrap">
+                                        <div class="uslovia__stepsNum">
+                                            1
+                                        </div>
+                                    </div>
+                                    <p>Первым делом подпишитесь на amic.ru в Instagram. Откройте, пожалуйста ваш профиль, если он не открыт</p>
+                                </li>
+                                <li class="uslovia__stepsItem">
+                                    <div class="uslovia__stepsNumWrap">
+                                        <div class="uslovia__stepsNum">
+                                            2
+                                        </div>
+                                    </div>
+                                    <p>Чтобы получить номерок лотереи, вам нужно купить один из наборов заставок с видами Барнаула.</p>
+                                </li>
+                                <li class="uslovia__stepsItem">
+                                    <div class="uslovia__stepsNumWrap">
+                                        <div class="uslovia__stepsNum">
+                                            3
+                                        </div>
+                                    </div>
+                                    <p>Одна покупка = один номерок для лотереи. Хотите увеличить свои шансы, покупайте больше наборов.<strong> Цена одного набора - 100 рублей.</strong></p>
+                                </li>
+                                <li class="uslovia__stepsItem">
+                                    <div class="uslovia__stepsNumWrap">
+                                        <div class="uslovia__stepsNum">
+                                            4
+                                        </div>
+                                    </div>
+                                    <p>Заполните на этой страничке небольшой опрос - спросим вас о том, как связаться с вами в случае вашего выигрыша.</p>
+                                </li>
+                                <li class="uslovia__stepsItem">
+                                    <div class="uslovia__stepsNumWrap">
+                                        <div class="uslovia__stepsNum">
+                                            5
+                                        </div>
+                                    </div>
+                                    <p>Следите за нашей страничкой в Instagram - именно там (число?) с помощью генератора случайных чисел в прямом эфире мы узнаем победителя и свяжемся с ним!</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="uslovia__desc">
+                            <div class="uslovia__descItem">
+                                <p>После каждой покупки вам на почту придет чек, а в нашей базе вам будет присвоен уникальный номер - один или несколько, в зависимости от количества купленных пакетов.</p>
+                                  <div class="uslovia__descItemGraf uslovia__descItemGrafArr">
+                                        <svg width="164" height="87" viewBox="0 0 164 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M129.598 28.9604C138.8 21.4424 148.558 15.7529 160.35 13.3528C163.63 12.6853 163.963 12.4239 160.799 11.6515C151.92 9.48416 143.402 5.59305 135.659 0.999876M1 85.9999C10.4639 65.8683 28.8318 46.8027 54.4433 31.7565C87.4992 12.3367 150.753 13.2348 150.753 13.2348" stroke="white" stroke-linecap="round"/>
+                                        </svg>
+                                  </div>  
+                            </div>
+                            <div class="uslovia__descItem">
+                                <p>Одна покупка даёт один шанс на победу. <strong>Пробретая более количество чеков, вы увеличиваете количество шансов на выигрыш!</strong></p>
+                                <div class="uslovia__descItemGraf uslovia__descItemGrafGrom">
+                                    <img src="./source/uslovia/grom.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a target="_blank" class="main__btn uslovia__btn" href="#">Подписаться в Instagram</a>
+                </div>
+            </section>
+
+            <section class="pack">
+                <div class="container">
+                    <h2>Выбери свой пакет:</h2>
+                    <div class="pack__content">
+                        <div class="pack__block">
+                            <div class="pack__blockPic">
+                                <img src="./source/pack/pack.png" alt="">
+                            </div>
+                            <h3>100 ₽</h3>
+                            <button class="main__btn pack__btn">Купить пакет</button>
+                        </div>
+                        <div class="pack__block">
+                            <div class="pack__blockPic">
+                                <img src="./source/pack/pack.png" alt="">
+                            </div>
+                            <h3>100 ₽</h3>
+                            <button class="main__btn pack__btn">Купить пакет</button>
+                        </div>
+                        <div class="pack__block">
+                            <div class="pack__blockPic">
+                                <img src="./source/pack/pack.png" alt="">
+                            </div>
+                            <h3>100 ₽</h3>
+                            <button class="main__btn pack__btn">Купить пакет</button>
+                        </div>
+                        <div class="pack__block">
+                            <div class="pack__blockPic">
+                                <img src="./source/pack/pack.png" alt="">
+                            </div>
+                            <h3>100 ₽</h3>
+                            <button class="main__btn pack__btn">Купить пакет</button>
+                        </div>
+                        <div class="pack__block">
+                            <div class="pack__blockPic">
+                                <img src="./source/pack/pack.png" alt="">
+                            </div>
+                            <h3>100 ₽</h3>
+                            <button class="main__btn pack__btn">Купить пакет</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </div>
     <script src='./js/script.js'></script>
 </body>
 </html>
